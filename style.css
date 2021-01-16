@@ -23,19 +23,18 @@ body {
   width: 1440px;
   min-height: 100vh;
   margin: auto; /*centers content for screen wider than 1440*/
-  background: dodgerblue;
 }
 
 .title {
   position: absolute;
-  width: 394px;
-  height: 96px;
+  width: 458px;
+  height: 135px;
   left: 221px;
-  top: 403px;
+  top: 236px;
   font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 32px;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 67px;
 }
 
 .text {
@@ -48,4 +47,10 @@ body {
   font-weight: normal;
   font-size: 20px;
   line-height: 32px;
+}
+
+.app-store-btn {
+}
+
+.google-store-btn {
 }
