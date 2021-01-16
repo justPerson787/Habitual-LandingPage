@@ -4,7 +4,7 @@ function changeBackground(number) {
     //Check if background is already set
     let prevBackground;
     if (body.className) {
-        prev = body.className;
+        prevBackground = body.className;
     }
     body.className = ''; //Reset CSS class for body
     switch (number) {
